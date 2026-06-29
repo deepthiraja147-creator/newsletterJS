@@ -14,6 +14,9 @@ errorSpan.style.float = "right";
 
 errorText.appendChild(errorSpan);
 
+ overlay.style.display = "none";
+ popup.style.display = "none";
+
 function validateEmail(email) {
     return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
 }
