@@ -12,6 +12,7 @@ errorSpan.style.color = "hsl(4, 100%, 67%)";
 errorSpan.style.fontSize = "12px";
 errorSpan.style.float = "right";
 
+
 errorText.appendChild(errorSpan);
 
  overlay.style.display = "none";
