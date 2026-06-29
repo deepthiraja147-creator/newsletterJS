@@ -1,0 +1,171 @@
+ @font-face {
+     font-family: roboto-bold;
+     src: url(/assets/fonts/Roboto-Bold.ttf);
+ }
+
+ body {
+     background-color: rgb(54 56 77);
+
+ }
+
+ .container {
+     background-color: white;
+     height: 380px;
+     width: 615px;
+     border-radius: 15px;
+     margin-top: 100px;
+     margin: 140px auto auto auto;
+ }
+
+ .deskimg {
+     height: 380px;
+     width: 225px;
+ }
+
+ .para {
+     padding-left: 50px;
+     padding-right: 15px
+ }
+
+ .header {
+     font-family: roboto-bold;
+     color: rgb(54 56 77);
+     margin-top: 50px;
+     font-size: 24px;
+ }
+
+ p {
+     font-size: 14px;
+ }
+
+ img,
+ svg {
+     width: 13px;
+     height: 20px;
+     vertical-align: middle;
+ }
+
+ .point {
+     margin: 0px;
+ }
+
+ .email {
+     margin-top: 15px;
+     font-family: roboto-bold;
+     font-size: 12px;
+ }
+
+ .emailip {
+     height: 40px;
+     width: 275px;
+     border: 1px solid grey;
+     border-radius: 5px;
+     padding-left: 25px;
+     cursor: pointer;
+ }
+
+ .btn {
+     margin-top: 15px;
+     height: 40px;
+     width: 275px;
+     background-color: rgb(35 39 66);
+ }
+
+ .btn:hover {
+     margin-top: 15px;
+     height: 40px;
+     width: 275px;
+     background-color: rgb(35 39 66);
+ }
+
+ .btn:active {
+     background: #9376a6;
+     background: linear-gradient(140deg, rgba(147, 118, 166, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+ }
+
+ .email-error {
+     border: 1px solid hsl(4, 100%, 67%);
+     background-color: rgba(255, 98, 87, 0.15);
+     color: hsl(4, 100%, 67%);
+ }
+
+ .email-error::placeholder {
+     color: hsl(4, 100%, 67%);
+ }
+
+ .error-text {
+     color: hsl(4, 100%, 67%);
+     font-size: 12px;
+     font-weight: 700;
+     float: right;
+ }
+
+
+ .header-popup {
+     font-family: roboto-bold;
+     color: rgb(54 56 77);
+     margin-top: 50px;
+     font-size: 30px;
+ }
+
+ .success-popup {
+     display: block;
+     position: fixed;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     background: white;
+     width: 311px;
+     padding: 40px;
+     border-radius: 6px;
+     z-index: 1000;
+ }
+
+ .overlay {
+     position: fixed;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     background: rgb(54 56 77);
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .newsimg{
+    display: none;
+ }
+
+ @media screen and (max-width:720px) {
+       body{
+        background-color: white;
+       }
+
+       
+ .row{
+    margin-top: -180px;
+ }
+
+       .container{
+        height: 100%;
+        width: 100%;
+       }
+       
+       .newsimg{
+        display: block;
+        padding: 0px;
+        width: 149%;
+        height: 320px;
+        
+       }
+
+       .deskimg{
+        display: none;
+       }
+       
+       .para{
+        padding: 0px 25px;
+        margin-top: 0px;
+       }
+ }
